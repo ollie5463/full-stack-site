@@ -1,11 +1,16 @@
-# `server`
+## Basic-site-BE
+This is to be used in conjunction with [Basic-site-FE](https://github.com/ollie5463/basic-site-FE).
 
-> TODO: description
+### How to use
+Prerequisites
+- Have node_modules installed by using the `yarn` command via the CLI
 
-## Usage
-
+To start this project you need to run:
+```js
+yarn start
 ```
-const server = require('server');
 
-// TODO: DEMONSTRATE API
-```
+### Tech used
+- Node (path, fs)
+- Yarn
+- Express

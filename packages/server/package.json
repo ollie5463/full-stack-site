@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "description": "server serving images and data",
+  "author": "oliver.bannister <oliver.bannister@gamesys.co.uk>",
+  "homepage": "https://github.com/ollie5463/full-stack-site#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://artifactory.gamesys.co.uk/artifactory/api/npm/gamesys-unicorn-npm-virtual/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ollie5463/full-stack-site.git"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/ollie5463/full-stack-site/issues"
+  }
+}
