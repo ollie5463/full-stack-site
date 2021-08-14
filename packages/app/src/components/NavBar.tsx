@@ -1,4 +1,5 @@
 import React from 'react';
+import { Login } from '.'
 import { Tabs, TabLink, Navigation } from './NavBar.style';
 
 const NavBar: React.FC = () => (
@@ -12,6 +13,9 @@ const NavBar: React.FC = () => (
       </li>
       <li>
         <TabLink to="/instants">Instants</TabLink>
+      </li>
+      <li>
+        <Login>Login</Login>
       </li>
     </Tabs>
   </Navigation>

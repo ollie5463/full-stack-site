@@ -7,6 +7,16 @@ export const Tabs = styled.ul`
     justify-content: space-around;
 `;
 
+export const Tab = styled.div`
+    text-decoration: none;
+    color: white;
+    font-family: faricy-new-web, sans-serif;
+    font-size: 16px;
+    &:hover {
+        cursor: pointer;
+    }
+`;
+
 export const TabLink = styled(Link)`
     text-decoration: none;
     color: white;
