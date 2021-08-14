@@ -1,6 +1,4 @@
-## Basic-site-BE
-This is to be used in conjunction with [Basic-site-FE](https://github.com/ollie5463/basic-site-FE).
-
+## Server
 ### How to use
 Prerequisites
 - Have node_modules installed by using the `yarn` command via the CLI
